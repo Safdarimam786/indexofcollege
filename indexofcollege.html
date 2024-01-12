@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+
+
+        .nav-header {
+            height: 17vh;
+            background-color: #e7edfa;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .nav-logo {
+            float: left;
+            cursor: pointer;
+            width: 50%;
+        }
+
+        .logo {
+            float: left;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            margin-left: 3%;
+            margin-right: 2%;
+        }
+
+        .logo-title {
+            margin-top: 3%;
+        }
+
+
+        .nav-link-item {
+
+            text-transform: uppercase;
+            padding: 0% 1%;
+            color: rgb(112, 110, 117);
+            text-decoration: none;
+        }
+
+
+        .btn {
+            text-align: right;
+            background-color: #e7edfa;
+            display: inline;
+            padding: 1%;
+
+            display: flex;
+            z-index: 1;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .searchbar {
+            outline: none;
+            border: 0px;
+            color: #9b9593;
+            width: 100%;
+            height: 5%;
+            top: 0;
+            left: 0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+
+        header {
+
+            background: url(https://lh3.googleusercontent.com/p/AF1QipM3CjzaQN7XMcr0vPisF9euMxaIjV_babxVEsW3=s680-w680-h510);
+            height: 99vh;
+            width: 99vw;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+        .container {
+
+            background-color: #e7edfa;
+        }
+
+        .container-heading {
+            text-align: center;
+            font-size: 80px;
+            font-family: 'Londrina Shadow', cursive;
+        }
+
+        .about-box1 {
+            font-family: 'Averia Serif Libre', cursive;
+            padding: 2%;
+            width: 70%;
+            border: 1px solid #cfd4e0;
+            margin: 0% 15%;
+            border-radius: 10px;
+            margin-bottom: 3%;
+            margin-top: 2%;
+            background-color: #c9d7f3;
+        }
+
+        .about-box2 {
+            padding: 0px;
+            width: 75%;
+            text-align: center;
+background-color: #c9d7f3 ;
+            margin-left: 13%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            border-collapse: collapse;
+           border-width: 3px;
+        }
+       
+
+
+        .table_detail {
+            padding: 10px;
+        }
+
+        th {
+            font-family: 'Averia Serif Libre', cursive;
+            padding: 2%;
+            font-size: 20px;
+        }
+        .footer{
+            background-color: #0b2149 ;
+            
+        }
+        .footer-title{
+            color: #c9d7f3;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .footer-address{
+            color: #fffefe;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .footer-list-head{  color: #cedaf3;
+            font-family: 'Rajdhani', sans-serif;}
+        .footer-list{
+            color: #fffefe;
+            font-family: 'Rajdhani', sans-serif;
+            
+            
+        }
+        
+        .box1{
+            
+            width: 30%;
+            float: left;
+            margin-left:10% ;
+            margin-right: 10%;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-header">
+        <div class="nav-logo">
+            <img class="logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Seal_of_Uttar_Pradesh.svg/200px-Seal_of_Uttar_Pradesh.svg.png"
+                alt="" width="15%">
+            <h2 class="logo-title"> KM. MAYAWATI GOVERNMENT GIRLS POLYTECHNIC, BADALPUR</h2>
+        </div>
+
+        <a class="nav-link-item" href="C:\Users\rakesh\Desktop\projects\hml1\college\cs.html">compter science</a>
+        <a class="nav-link-item" href="#">information technology</a>
+        <a class="nav-link-item" href="#">Electronics</a>
+
+        <form class="btn">
+            <input type="text" class="searchbar" placeholder="search anything"> </input>
+            <button type="submit"></button>
+        </form>
+    </div>
+
+    <header></header>
+    <div class="container">
+        <h1 class="container-heading">ABOUT KMGGP</h1>
+        <div class="about-box1">
+            <h3>The college name KM. MAYAWATI GOVERNMENT GIRLS POLYTECHNIC was established in 2002 and since than has
+                played an important role in the promotion of higher education among girls of BADALPUR and adjoining
+                area.This Institute are Affiliated and Approvals from AICTE.There are three diploma Courses avilable
+                that is diploma in computer Science and Engineering,diploma in Information Technology and diploma in
+                Electronics Engineering </h3>
+        </div>
+        <h2 class="container-heading">ALL INFORMATION ABOUT KM. MAYAWATI GOVERNMENT GIRLS POLYTECHNIC</h2>
+        <table border="1" class="about-box2">
+            <tr>
+                <th colspan="2">ABOUT</th>
+            </tr>
+            <tr>
+                <th>Parameter</th>
+                <th>Parameter Description</th>
+            </tr>
+            <tr>
+                <td class="table_detail">Established</td>
+                <td class="table_detail">2002</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Courses</td>
+                <td class="table_detail">1 Degree and 3 Courses</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Institute Type</td>
+                <td class="table_detail">Affiliated</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Approvals</td>
+                <td>AICTE</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Gender</td>
+                <td class="table_detail">Female</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Student count</td>
+                <td class="table_detail">340</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Faculty count</td>
+                <td class="table_detail">16</td>
+            </tr>
+        </table>
+        <table border="1" class="about-box2">
+            <tr>
+                <th colspan="2">computer Science and Engineering</th>
+            </tr>
+            <tr>
+                <td class="table_detail">Study Mode</td>
+                <td class="table_detail">Seats</td>
+            </tr>
+            <tr>
+                <td class="table_detail"> Full time</td>
+                <td class="table_detail">60</td>
+            </tr>
+        </table>
+        <table border="1" class="about-box2">
+            <tr>
+                <th colspan="2">Information Technology</th>
+            </tr>
+            <tr>
+                <td class="table_detail">Study Mode</td>
+                <td class="table_detail">Seats</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Full time</td>
+                <td class="table_detail">60</td>
+            </tr>
+        </table>
+        <table border="1" class="about-box2">
+            <tr>
+                <th colspan="2">Electronics Engineering</th>
+            </tr>
+            <tr>
+                <td class="table_detail">Study Mode</td>
+                <td class="table_detail">Seats</td>
+            </tr>
+            <tr>
+                <td class="table_detail">Full time</td>
+                <td class="table_detail">60</td>
+            </tr>
+
+        </table>
+<br>
+<br>
+<br>
+<br>
+    </div>
+
+
+    <div class="footer">
+        <div class="box1">
+            <h1 class="footer-title">Our mission is to provide a good, world-class education.</h1>
+<h2 class="footer-address">Kumari Mayawati Govt. Girls Polytechnic, (AICTE Approved)
+    Earlier (Govt. Women's Polytechnic) Badalpur
+    Badalpur,
+    Distt. Gautam Budh Nagar (U.P)</h2>
+        </div>
+
+    <ol class="footer-list" >
+        <li  class="footer-list-head">About</li>
+        <li>News</li>
+        <li>Faculty</li>
+        <li>CSE</li>
+        <li>IT</li>
+        <li>EE</li>
+        <li>Urise</li>
+        <li>Betup</li>
+        <li>Scholarship</li>
+       
+    </ol>
+   
+   
+    <br>
+    <br>
+    <br>
+     <br>
+     <br>
+    </div>
+    
+   
+</body>
+
+</html>
